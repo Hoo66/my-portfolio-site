@@ -1,0 +1,42 @@
+.pimg1 {
+  min-height: 60vh;
+}
+
+.site-image {
+  width: 100%;
+}
+
+.texts {
+  width: 80%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+a {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: #ccc;
+}
+a:hover {
+  cursor: pointer;
+}
+p {
+  margin-bottom: 16px;
+}
+h4 {
+  margin-bottom: 4px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: #ccc;
+}
+h4, .h4-p {
+  margin-left: 10px;
+}
+
+h3 {
+  font-weight: bold;
+}
