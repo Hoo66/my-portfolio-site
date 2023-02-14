@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/mysite.css">
+  <link rel="icon" href="img/favicon.ico">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        お問い合わせ管理サイト
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-light">
+    <div class="section-inner">
+
+      <img class="site-image" src="img/aroma-mirai-management.png" alt="">
+      <div class="texts">
+  
+        <h3>URL: </h3>
+        <p><a href="http://aroma-mirai-management.herokuapp.com/" target="_blank">http://aroma-mirai-management.herokuapp.com/</a></p>
+        <h3>ログインID・パスワード：</h3>
+        <p class="mb0">ID: test</p>
+        <p>Password: 12345678</p>
+        <h3>使用した技術: </h3>
+        <p>Laravel</p>
+        <h3>Github: </h3>
+        <p><a href="https://github.com/Hoo66/aroma-mirai-management" target="_blank">https://github.com/Hoo66/aroma-mirai-management</a></p>
+        <h3>詳細</h3>
+        <p>Aroma Miraiの業務管理ウェブアプリです。レスポンシブ対応しています。<br>
+          現在お問合せ管理のみ実装しています。トップページ以外はIDとパスワードでログインしたユーザーのみ閲覧・操作できます。 </p>
+          <h4><b>お問合せ管理画面（/inquiries）</b></h4>
+          <p class="h4-p">
+            Aroma Mirai店舗サイトのお問合せフォームで受信したお問い合わせを一覧表示します。<br>
+            画面上部のラジオボタンで、ステータスごと（未対応、対応中、済、全て）の表示切り替えが可能です。<br>
+            各お問い合わせをクリックすると、詳細画面に遷移します。  
+          </p>
+          <h4><b>お問い合わせ詳細画面（/inquiries/{id}）</b></h4>
+          <p class="h4-p">お問い合わせ詳細の閲覧、削除、ステータスの変更、および管理者のメモの保存ができます。  </p>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div>
+      <p><a href="index.html">Topへもどる</a></p>
+    </div>
+    <p><small>&copy;FS 2023</small></p>
+  </footer>
+</body>
+</html>

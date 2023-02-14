@@ -7,10 +7,7 @@
 }
 
 .texts {
-  width: 80%;
   margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: left;
 }
 @media screen and (max-width: 800px) {
@@ -22,8 +19,7 @@
 a {
   text-decoration: underline;
   text-underline-offset: 8px;
-  -webkit-text-decoration-color: #ccc;
-          text-decoration-color: #ccc;
+  text-decoration-color: #ccc;
 }
 
 a:hover {
@@ -38,8 +34,7 @@ h4 {
   margin-bottom: 4px;
   text-decoration: underline;
   text-underline-offset: 4px;
-  -webkit-text-decoration-color: #ccc;
-          text-decoration-color: #ccc;
+  text-decoration-color: #ccc;
 }
 
 h4, .h4-p {
@@ -48,4 +43,8 @@ h4, .h4-p {
 
 h3 {
   font-weight: bold;
+}
+
+.mb0 {
+  margin-bottom: 0px;
 }/*# sourceMappingURL=mysite.css.map */
