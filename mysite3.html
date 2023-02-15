@@ -14,7 +14,7 @@
   <div class="pimg1">
     <div class="ptext">
       <span class="border">
-        お問い合わせ管理サイト
+        投稿型のポートフォリオサイト
       </span>
     </div>
   </div>
@@ -22,29 +22,41 @@
   <section class="section section-light">
     <div class="section-inner">
 
-      <img class="site-image" src="img/aroma-mirai-management.png" alt="">
+      <img class="site-image" src="img/websitegallery_top.png" alt="">
       <div class="texts">
   
         <h3>URL: </h3>
-        <p><a href="http://aroma-mirai-management.herokuapp.com/" target="_blank">http://aroma-mirai-management.herokuapp.com/</a></p>
-        <h3>ログインID・パスワード：</h3>
-        <p class="mb0">ID: test</p>
-        <p>Password: 12345678</p>
+        <p><a href="https://websitesgallery.netlify.app" target="_blank">https://websitesgallery.netlify.app</a></p>
         <h3>使用した技術: </h3>
-        <p>Laravel</p>
+        <p>React, Firebase（Authentication, Firestore, Storage) </p>
         <h3>Github: </h3>
-        <p><a href="https://github.com/Hoo66/aroma-mirai-management" target="_blank">https://github.com/Hoo66/aroma-mirai-management</a></p>
+        <p><a href="https://github.com/Hoo66/website-gallery" target="_blank">https://github.com/Hoo66/website-gallery</a></p>
         <h3>詳細</h3>
-        <p>Aroma Miraiの業務管理ウェブアプリです。レスポンシブ対応しています。<br>
-          現在お問合せ管理のみ実装しています。トップページ以外はIDとパスワードでログインしたユーザーのみ閲覧・操作できます。 </p>
-          <h4><b>お問合せ管理画面（/inquiries）</b></h4>
+        <p>アカウントを作って自分の制作したWebサイトを投稿できるWebアプリです。 <br>レスポンシブ対応しています。 </p>
+          <h4>Home</h4>
           <p class="h4-p">
-            Aroma Mirai店舗サイトのお問合せフォームで受信したお問い合わせを一覧表示します。<br>
-            画面上部のラジオボタンで、ステータスごと（未対応、対応中、済、全て）の表示切り替えが可能です。<br>
-            各お問い合わせをクリックすると、詳細画面に遷移します。  
+            投稿されたWebサイトが新しいものから順に表示され、Websiteの画像をクリックすると詳細を確認できます。 
           </p>
-          <h4><b>お問い合わせ詳細画面（/inquiries/{id}）</b></h4>
-          <p class="h4-p">お問い合わせ詳細の閲覧、削除、ステータスの変更、および管理者のメモの保存ができます。  </p>
+          <h4>Webサイト詳細画面 </h4>
+          <p class="h4-p">Webサイトの名前、制作者、使用した技術、URL等の詳細が確認できます。制作者の名前をクリックするとその制作者が投稿したWebサイトの一覧が表示されます。 </p>
+          <h4>ナビゲーションボタン（画面右上） </h4>
+          <p class="h4-p">
+            以下の各ページへの移動ができます。 <br>
+            - サインアップページ、サインインページ、My Page、Webサイト投稿ページ <br>
+            また、サインインしている場合はサインアウトボタンが表示されます。 
+          </p>
+          <h4>サインアップ、サインイン、サインアウト </h4>
+          <p class="h4-p">Firebase Authenticationのメール/パスワード認証で管理しています。</p>
+          <h4>My Page</h4>
+          <p class="h4-p">ユーザーネームの変更、メールアドレスの変更、自己紹介文の編集、投稿したWebサイトの編集・削除、アカウントの削除ができます。</p>
+          <h4>Webサイト投稿ページ（Add Website） </h4>
+          <p class="h4-p">Webサイトの投稿ができます。投稿された内容はFirebase Firestoreで管理し、画像ファイルはFirebase Storageで管理しています。</p>
+  
+        <h3>その他補足</h3>
+        <ul>
+          <li>サインイン周りのエラーメッセージはReact-toastifyで実装しました。(<a href="https://fkhadra.github.io/react-toastify/introduction" target="_blank">https://fkhadra.github.io/react-toastify/introduction</a>)</li>
+          <li>投稿済Webサイトの画像は著作権フリー画像を使用しています。Faviconは自作です。</li>
+        </ul>
       </div>
     </div>
   </section>
